@@ -75,12 +75,14 @@ const Cart = () => {
               className="relative mb-4 h-60 w-60 text-muted-foreground"
             >
               <Image
-                src="/abbellidani-empty-cart.png"
                 fill
+                src="/racoonEmptyTrash.png"
                 alt="empty shopping cart hippo"
               />
             </div>
-            <div className="text-xl font-semibold">Your cart is empty</div>
+            <div className="text-xl font-semibold py-3">
+              Your trash is empty
+            </div>
             <SheetTrigger asChild>
               <Link
                 href="/products"
